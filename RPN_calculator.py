@@ -1,8 +1,6 @@
 
 # coding: utf-8
 
-# In[6]:
-
 class RpnCalc():
     
     def __init__(self):
@@ -46,29 +44,3 @@ class RpnCalc():
                 self.add_to_stack(float(inpt))
             print self.stack
             inpt = raw_input(': ')
-
-
-# In[7]:
-
-calc = RpnCalc()
-
-
-# In[8]:
-
-calc.run()
-
-
-# In[ ]:
-
-
-
-
-# In[5]:
-
-int(0.5)
-
-
-# In[ ]:
-
-
-
